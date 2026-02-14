@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Alarm Clock</title>
+  <link rel="stylesheet" href="./styles/tokens.css">
+  <link rel="stylesheet" href="./styles/layout.css">
+  <link rel="stylesheet" href="./styles/components.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Timer App</h1>
+      <p class="display-small" id="timer-status">Ready to start</p>
+    </header>
+
+    <main>
+      <div class="input-group">
+        <input type="text" id="timer-input" class="form-input" placeholder="Enter minutes (e.g. 5)"
+          aria-label="Minutes for timer" />
+        <button id="btn-start" class="btn btn-primary">START</button>
+        <button id="btn-pause" class="btn">PAUSE</button>
+        <button id="btn-stop" class="btn btn-danger">STOP</button>
+      </div>
+
+      <div id="error-message" class="error-message"></div>
+
+      <div class="timer-display">
+        <div id="timer-display" class="display-large">00:00</div>
+      </div>
+
+      <button id="btn-reset" class="btn btn-danger" style="display: none;">Reset</button>
+    </main>
+
+    <footer>
+      <p class="footer-text">by Andre Maurell - 2026 - v.2.0</p>
+    </footer>
+  </div>
+
+  <div id="error-modal" class="modal">
+    <div class="modal-content">
+      <p class="modal-text">ENTER MINUTES!</p>
+      <button id="btn-close-modal" class="btn btn-primary">OK</button>
+    </div>
+  </div>
+
+  <script src="./js/utils/Validator.js"></script>
+  <script src="./js/models/Timer.js"></script>
+  <script src="./js/views/TimerView.js"></script>
+  <script src="./js/controllers/TimerController.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

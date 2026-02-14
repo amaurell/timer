@@ -1,0 +1,36 @@
+:root {
+  /* Brutalist Colors */
+  --color-primary: #000000;
+  --color-primary-hover: #ffffff;
+  --color-background: #eeeeee;
+  /* Concrete grey */
+  --color-surface: #ffffff;
+  --color-text-primary: #000000;
+  --color-text-secondary: #000000;
+  --color-border: #000000;
+  --color-danger: #ff0000;
+  --color-success: #00ff00;
+
+  /* Typography */
+  --font-family: 'Courier New', Courier, monospace;
+  /* Monospace is essential for Brutalism */
+  --font-size-base: 18px;
+  --font-weight-regular: 700;
+  /* Bold everywhere */
+  --font-weight-bold: 900;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Brutalist Components */
+  --radius-md: 0;
+  /* No rounded corners */
+  --shadow-sm: 4px 4px 0px 0px #000000;
+  /* Hard shadow */
+  --shadow-md: 8px 8px 0px 0px #000000;
+  /* Deep hard shadow */
+}
