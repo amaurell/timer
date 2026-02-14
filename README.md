@@ -1,5 +1,7 @@
 # Alarm / Timer App - v2.0
 
+<img src="imagem_aplicativo.jpg" alt="Image do Projeto" width="800"/>
+
 ## 🇧🇷 Português
 
 ### Objetivo
